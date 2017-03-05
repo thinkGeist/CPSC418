@@ -23,7 +23,7 @@ Key Generator: Given Seed -> SHA-1 Digest -> Key
 ### Sending a file: Once Client is running and connected, follow steps provided in terminal for successful file transfer
 - On success, file will be transferred and saved on the server
 - If unsuccessful client will receive the error and connection will be closed.
-Tested on Windows & Undergraduate Linux CPSC Server
+Tested on Windows and Undergraduate Linux CPSC Server
 ## To-Do
 Implementation is complete, no to-do’s.
 ## Bugs
