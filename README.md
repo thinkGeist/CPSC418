@@ -12,15 +12,15 @@ Key Generator: Given Seed -> SHA-1 Digest -> Key
   - ServerThread.java Bulk of the code server side that deals with receiving messages and files from a specific client. Called from Server.java.
   
 ## Usage
-### Creating a Server: Call from command line “java Server <port>”
+Creating a Server: Call from command line “java Server <port>”
 - On success, program will wait for a client to connect
 - On failure, program will output error message and kill the server
 - Can also debug by including “debug” as a 2nd argument
-### Creating a Client connection: Call from command line “java Client <hostname> <port>
+Creating a Client connection: Call from command line “java Client <hostname> <port>
 - On success, program will connect to given server, and output success message to screen
 - If unsuccessful client will report and error and no connection will be established
 - Can also debug by including “debug” as a 2nd argument
-### Sending a file: Once Client is running and connected, follow steps provided in terminal for successful file transfer
+Sending a file: Once Client is running and connected, follow steps provided in terminal for successful file transfer
 - On success, file will be transferred and saved on the server
 - If unsuccessful client will receive the error and connection will be closed.
 Tested on Windows and Undergraduate Linux CPSC Server
